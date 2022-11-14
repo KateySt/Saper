@@ -1,7 +1,5 @@
 package org.example.sweeper;
 
-import java.awt.*;
-
 class Bomb {
     private Matrix bombMap;
     private int totalBomb;
@@ -31,8 +29,8 @@ class Bomb {
 
     private void fixBombsCount() {
         int maxBombs = Ranges.getSize().x * Ranges.getSize().y / 2;
-        if(totalBomb>maxBombs){
-            totalBomb=maxBombs;
+        if (totalBomb > maxBombs) {
+            totalBomb = maxBombs;
         }
     }
 

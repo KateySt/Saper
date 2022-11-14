@@ -8,7 +8,6 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Objects;
-import java.util.concurrent.Callable;
 
 public class MainSweeper extends JFrame {
     private Game game;

@@ -41,7 +41,7 @@ public class Game {
     private void openBox(Coord coord) {
         switch (flag.get(coord)) {
             case OPENED:
-                 setOpenedToClosedBoxesAroundNumber(coord);
+                setOpenedToClosedBoxesAroundNumber(coord);
                 return;
             case FLAGED:
                 return;
